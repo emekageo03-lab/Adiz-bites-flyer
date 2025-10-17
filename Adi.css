@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.flyer {
+    width: 8.5in;
+    height: 11in;
+    background: linear-gradient(135deg, #ffd700, #ff8c00);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 0.5in;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.header {
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    margin-bottom: 0.2in;
+    font-family: 'Georgia', serif;
+    letter-spacing: 2px;
+}
+
+.slogan {
+    font-size: 1.2em;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+    margin-bottom: 0.5in;
+    font-style: italic;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 0.5in;
+}
+
+.service-item {
+    width: 30%;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.25in;
+    margin: 0.1in;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.1em;
+    color: #333;
+    text-align: left;
+}
+
+.service-item h3 {
+    font-size: 1.5em;
+    color: #ff4500;
+    margin-bottom: 0.1in;
+}
+
+.service-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.service-item li {
+    margin: 0.1in 0;
+    position: relative;
+    padding-left: 1em;
+}
+
+.service-item li:before {
+    content: "★";
+    color: #ff4500;
+    position: absolute;
+    left: 0;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.5in;
+}
+
+.image-placeholder {
+    width: 30%;
+    height: 2.5in;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image1 { background-image: url('cake.jpg'); }
+.image2 { background-image: url('noodles.jpg'); }
+.image3 { background-image: url('rolls.jpg'); }
+
+.tagline {
+    font-size: 1.5em;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+    font-weight: bold;
+    margin-bottom: 0.3in;
+}
+
+.contact {
+    position: absolute;
+    bottom: 0.5in;
+    left: 0.5in;
+    right: 0.5in;
+    font-size: 1.2em;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.contact a {
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+.image1 { background-image: url('cake.jpg'); }
+.image2 { background-image: url('noodles.jpg'); }
+.image3 { background-image: url('rolls.jpg'); }
